@@ -63,27 +63,6 @@ Node.js (v16 or above)
 npm or yarn
 
 MongoDB instance (local or cloud)
-Project Structure
-devtinder/
-├── src/                    # Backend source
-│   ├── config/            # Database configuration
-│   ├── controllers/       # Route controllers
-│   ├── middleware/        # Custom middleware
-│   ├── models/           # Mongoose models
-│   ├── routes/           # API routes
-│   ├── sockets/          # Socket.io handlers
-│   └── utils/            # Utility functions
-├── frontend/              # Frontend source
-│   ├── public/           # Static assets
-│   └── src/
-│       ├── components/   # React components
-│       ├── constants/    # App constants
-│       ├── hooks/        # Custom hooks
-│       ├── services/     # API services
-│       ├── store/        # State management
-│       └── styles/       # CSS files
-├── .env.example          # Environment variables template
-└── package.json
 
 🔌 API Endpoints
 Authentication
